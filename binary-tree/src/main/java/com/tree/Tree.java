@@ -55,7 +55,6 @@ class Tree {
 
         if(root == null)
             root = newNode;
-
         else{
             Node current = root;
             Node parent;
@@ -80,6 +79,7 @@ class Tree {
 
             }
         }
+
 
     }
 
