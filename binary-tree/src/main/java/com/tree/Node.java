@@ -1,15 +1,19 @@
 package com.tree;
 
 public class Node {
-    int iData;
-    double fData;
+    public int iData;
+    public double dData;
 
-    Node leftChild;
-    Node rightChild;
+    public Node leftChild;
+    public Node rightChild;
 
     public void displayNode(){
 
-        //
+        System.out.print('{');
+        System.out.print(iData);
+        System.out.println(", ");
+        System.out.println(dData);
+        System.out.println("} ");
     }
 
 }
